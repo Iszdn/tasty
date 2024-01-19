@@ -1,0 +1,35 @@
+#header-sec{
+    color: white;
+    
+    .headers{
+padding: 200px 0;
+    height: 90vh;
+    text-align: center; 
+     background-position: center;
+        background-size: cover;
+    .butt{
+        padding: 20px 40px;
+        border: 2px solid white;
+        display: inline-block;
+        margin-top: 20px;
+            transition: .4s;
+            cursor: pointer;
+        &:hover{
+            transition: .4s;
+            background-color: white;
+            color: black;
+        }
+    }
+    }
+    .div1{
+        background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_2.jpg");
+      
+    }
+    .div2{
+background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_3.jpg");
+    }
+    .div3{
+background-image: url("https://preview.colorlib.com/theme/tasty/images/bg_1.jpg");
+        
+    }
+}

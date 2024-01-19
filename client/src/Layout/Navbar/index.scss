@@ -1,0 +1,111 @@
+#navbar {
+    padding: 20px 0;
+    background-color: #404044;
+    color: white;
+
+    .nav {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+
+        .tasty {
+            border: 2px solid white;
+            cursor: pointer;
+            padding: 5px 10px;
+            color: white;
+        }
+
+        .navigations {
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 40px;
+
+                li {
+                    .active {
+                        color: var(--main--color);
+                    }
+
+                    a {
+                        color: inherit;
+                        transition: .3s;
+
+                        span {
+                            font-size: 20px;
+                        }
+
+                        &:hover {
+                            transition: .3s;
+                            color: var(--main--color);
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .bar {
+            font-size: 24px;
+            display: none;
+        }
+    }
+  
+
+    
+}  
+.navigations-media {
+        transition: 0.3s;
+        background-color: #404044;
+        align-items: center;
+        justify-content: center;
+        height: 0px ;
+        overflow: hidden ;
+        ul {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            gap: 40px;
+
+            li {
+                .active {
+                    color: var(--main--color);
+                }
+
+                a {
+                    color: inherit;
+                    transition: .3s;
+
+                    span {
+                        font-size: 20px;
+                    }
+
+                    &:hover {
+                        transition: .5s;
+                        color: var(--main--color);
+                    }
+                }
+            }
+        }
+    }
+.active-nav {
+        height: 500px;
+    }
+@media screen and (max-width:992px) {
+    #navbar {
+
+        .nav {
+            .navigations {
+                display: none;
+            }
+
+            .bar {
+                font-size: 24px;
+                display: block;
+            }
+
+        }
+    }
+
+   
+
+}

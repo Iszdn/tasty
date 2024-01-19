@@ -1,0 +1,20 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: inherit;
+  font-family: 'Mulish', sans-serif;
+}
+ul li{
+  list-style: none;
+}
+ul{
+  margin: 0;
+  padding: 0; 
+}
+a{
+  text-decoration: none !important;
+}
+img{
+  width: 100%;
+}

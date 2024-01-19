@@ -1,0 +1,22 @@
+.addForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+        .red{
+            color: red;
+        }
+        .btn{
+            color: white;
+            background-color: lightblue
+        }
+        input{
+            border-radius: 10px;
+            border: 1px solid lightblue;
+        }
+    }
+}
